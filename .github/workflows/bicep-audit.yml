@@ -4,12 +4,12 @@ on:
     branches: 
       - main
     paths:
-      - "infra/**"
+      - "deploy/**"
   pull_request:
     branches: 
       - main
     paths:
-      - "infra/**"
+      - "deploy/**"
   workflow_dispatch:
 
 jobs:
